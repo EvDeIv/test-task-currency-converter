@@ -9,7 +9,6 @@ import { useSetRecoilState } from 'recoil';
 
 function App() {
 	const { data, isLoading } = useBaseCurrency('UAH');
-	console.log(isLoading);
 
 	const setBaseRates = useSetRecoilState(baseRatesAtom);
 

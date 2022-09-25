@@ -5,7 +5,7 @@ export const useMainCurrencyRatesStyles = createStyles(
 		container: {
 			display: 'flex',
 			flexDirection: 'column',
-			height: 110,
+			height: 70,
 			width: 122,
 		},
 		headerText: {
